@@ -3,6 +3,5 @@ naRaiz.zip filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.elf filter=lfs diff=lfs merge=lfs -text
 UP4381-PPSA01650_00-YOUTUBESIEA00000-US.pkg filter=lfs diff=lfs merge=lfs -text
-
 # --- EXCEÇÕES (baixar binário real, não ponteiro 1KB) ---
 payloads/*.elf -filter -diff -merge -text
